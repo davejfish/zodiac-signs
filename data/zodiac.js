@@ -1,10 +1,5 @@
 const signs = [
-  {
-    id: '1',
-    name: 'aquarius',
-    dates: 'Jan 21 - Feb 19',
-    symbol: 'Water Bearer',
-  },
+  { id: '1', name: 'aquarius', dates: 'Jan 21 - Feb 19', symbol: 'Water Bearer' },
   { id: '2', name: 'aries', dates: 'Mar 21 - Apr 19', symbol: 'Ram' },
   { id: '3', name: 'cancer', dates: 'Jun 21 - Jul 22', symbol: 'Crab' },
   { id: '4', name: 'capricorn', dates: 'Dec 22 - Feb 19', symbol: 'Goat' },
