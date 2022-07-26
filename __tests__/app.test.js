@@ -9,8 +9,7 @@ describe('zodiac sign routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
-  
-  
+
   it('example test - delete me!', () => {
     expect(1).toEqual(1);
   });
@@ -30,11 +29,11 @@ it('/zodiac returns id and name for each sign', async () => {
 
 it('/zodiac/id returns detail about specific sign', async () => {
   const res = await request(app).get('/zodiac/7');
-  const expected = { 
-    id: '7', 
-    name: 'libra', 
-    dates: 'Sept 23 - Oct 22', 
-    symbol: 'Balance' 
+  const expected = {
+    id: '7',
+    name: 'libra',
+    dates: 'Sept 23 - Oct 22',
+    symbol: 'Balance',
   };
 
   expect(res.body).toEqual(expected);
